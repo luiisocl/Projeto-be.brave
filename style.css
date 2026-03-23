@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    
+}
+
+:root{
+    --primary-color: #222222;
+    --secondary-color: #c0c0c0;
+    --accent-color: #291141;
+    --font-family: 'Arial', sans-serif;
+}
+ body{
+    font-family: var(--font-family);
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    line-height: 1.6;
+ }
+ header{
+    text-align: center;
+
+
+ }
+ main{
+    max-width: ;
+ }
