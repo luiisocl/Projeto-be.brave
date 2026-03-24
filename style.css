@@ -9,9 +9,9 @@
 }
 
 :root{
-    --primary-color: #222222;
-    --secondary-color: #c0c0c0;
-    --accent-color: #291141;
+    --primary-color: #f5f1f1;
+    --secondary-color: #000000;
+    --accent-color: #322a3a;
     --font-family: 'Arial', sans-serif;
 }
  body{
@@ -26,5 +26,12 @@
 
  }
  main{
-    max-width: ;
+    
+ }
+ nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--primary-color);
+    padding: 1.5rem;
  }
